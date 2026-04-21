@@ -1,1 +1,35 @@
-/* Place CSS styles here */
+body{
+    background-color: #ffcad4;
+}
+.pill-nav {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: grid;
+    grid-template-columns: auto repeat(3, auto);
+    align-items: center;
+    gap: 25px;
+
+    padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.pill-nav img {
+    height: 60px;
+}
+
+.pill-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.pill-nav a:hover {
+    color: #ff7fbf;
+}
