@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>Ann-Marie Fuselier | Gallery</title>
+  <meta name="description" content="Gallery">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -13,7 +13,7 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="icon.png">
+  <link rel="icon" href="./img/favicon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -21,19 +21,82 @@
 
   <meta name="theme-color" content="#fafafa">
 </head>
-
 <body>
- <nav class="pill-nav">
+
+  <!-- NAV -->
+  <nav class="pill-nav">
     <a href="index.html" class="logo">
-        <img src="./img/logo.png" alt="">
+      <img src="./img/logo.png" alt="Logo">
     </a>
 
+    <a href="gallery.html" class="active">Gallery</a>
     <a href="about.html">About</a>
-    <a href="gallery.html">Gallery</a>
     <a href="contact.html">Contact</a>
-</nav>
-  <p>GALLERY</p>
-  <script src="js/main.js"></script>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="gallery-header">
+    <h1>gallery</h1>
+  </header>
+
+  <!-- GALLERY GRID -->
+  <section class="gallery-grid">
+
+    <!-- ITEM 1 — The Great Gatsby -->
+    <div class="gallery-item">
+      <img src="./img/movieposter3.png" alt="The Great Gatsby">
+      <div class="gallery-info">
+        <h3>The Great Gatsby</h3>
+        <p>
+          A themed packaging and poster set for The Great Gatsby movie, including a popcorn box and drink cup.
+          The visual system incorporates Art Deco patterns, gold accents, and period‑inspired typography.
+        </p>
+        <p class="tools">Adobe Illustrator • Adobe Photoshop • Procreate</p>
+      </div>
+    </div>
+
+    <!-- ITEM 2 — ChimeIn -->
+    <div class="gallery-item">
+      <img src="./img/folded2.png" alt="ChimeIn Brochure">
+      <div class="gallery-info">
+        <h3>ChimeIn</h3>
+        <p>
+          A tri‑fold brochure created for an interactive app designed for TV and movie lovers. The app lets
+          users rate, review, comment, and “ChimeIn” on a live text feed during the viewing experience.
+        </p>
+        <p class="tools">Adobe Illustrator • Procreate</p>
+      </div>
+    </div>
+
+    <!-- ITEM 3 — Scrambler -->
+    <div class="gallery-item">
+      <img src="./img/scrambler.png" alt="Scrambler Cube">
+      <div class="gallery-info">
+        <h3>Scrambler</h3>
+        <p>
+          A Rubik’s Cube rebrand titled Scrambler, built around the idea of a cube that comes pre‑scrambled
+          to emphasize spontaneity and play. The identity uses bold primary colors and geometric shapes to
+          create a strong visual language.
+        </p>
+        <p class="tools">Adobe Illustrator • Adobe Photoshop • Procreate</p>
+      </div>
+    </div>
+
+  </section>
+  
+<footer class="site-footer">
+  <a href="mailto:fuseann28@gmail.com" class="footer-link">Email</a>
+  <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:e80e5c66-7c0f-4953-abaa-64a213dfc0f9" target="_blank" class="footer-link">Resume</a>
+
+  <a href="https://www.instagram.com/annmarief.design/" target="_blank" class="footer-icon">
+    <img src="./img/ig.webp" alt="Instagram">
+  </a>
+
+  <a href="https://www.linkedin.com/in/ann-marie-fuselier/" target="_blank" class="footer-icon">
+    <img src="./img/linkedin.png" alt="LinkedIn">
+  </a>
+</footer>
+
 </body>
 
 </html>
